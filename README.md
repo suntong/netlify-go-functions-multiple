@@ -13,7 +13,7 @@ This example makes a few assumptions about the Netlify deployment system to make
 
 1. [Fork this repo](https://help.github.com/en/articles/fork-a-repo#fork-an-example-repository).
 1. Change your [GIT_IMPORT_PATH](https://github.com/phoenixcoder/GolangNetlifyFunctions/blob/70583093ac3d99b882391074087c5224edd6e9e9/netlify.toml#L5) to your forked repo's URL.
-1. Change the name of your functions folder in the [netlify.toml](https://github.com/phoenixcoder/GolangNetlifyFunctions/blob/70583093ac3d99b882391074087c5224edd6e9e9/netlify.toml#L3) to something you desire, which we'll call, **FUNCS_FOLDER_NAME**.
+1. If you desire, change the name of your functions folder in the [netlify.toml](https://github.com/phoenixcoder/GolangNetlifyFunctions/blob/70583093ac3d99b882391074087c5224edd6e9e9/netlify.toml#L3). We'll call this new name, **FUNCS_FOLDER_NAME**.
    
    If you make this change, be sure to change the [GOBIN entry in the netlify.toml file](https://github.com/phoenixcoder/GolangNetlifyFunctions/blob/70583093ac3d99b882391074087c5224edd6e9e9/netlify.toml#L6), appropriately.
    
