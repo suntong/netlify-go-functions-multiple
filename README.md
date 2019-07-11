@@ -32,7 +32,11 @@ This example makes a few assumptions about the Netlify deployment system to make
 1. Wait for the first entry to change its status to: **PUBLISHED**.
 1. Click on "Functions" tab at the top of the page.
 1. You should see one function for "hello" and another for "goodbye".
-1. If you click on either one, and visit the **Endpoint** under the function name of the form: **https://[something-clever-netlify-made-for-you].netlify.com/.netlify/FUNCS_FOLDER_NAME/[function-name]**, you will see either the words, "Hello, World!" or "Goodbye, World!"
+1. If you click on either one, and visit the **Endpoint** under the function name of the form:
+   ```
+   https://[something-clever-netlify-made-for-you].netlify.com/.netlify/FUNCS_FOLDER_NAME/[function-name]
+   ```
+   ...you will see either the words, "Hello, World!" or "Goodbye, World!"
 1. Congratulations, you've just deployed a pure backend filled with Golang Netlify functions!
 
 ## How do I add more functions to this...
