@@ -15,8 +15,14 @@ This example makes a few assumptions about the Netlify deployment system to make
 1. Change your [GIT_IMPORT_PATH](https://github.com/phoenixcoder/GolangNetlifyFunctions/blob/70583093ac3d99b882391074087c5224edd6e9e9/netlify.toml#L5) to your forked repo's URL.
 1. Change the name of your functions folder in the [netlify.toml](https://github.com/phoenixcoder/GolangNetlifyFunctions/blob/70583093ac3d99b882391074087c5224edd6e9e9/netlify.toml#L3) to something you desire, which we'll call, **FUNCS_FOLDER_NAME**.
    
-   If you make this change, be sure to change the [GOBIN entry in the netlify.toml file](https://github.com/phoenixcoder/GolangNetlifyFunctions/blob/70583093ac3d99b882391074087c5224edd6e9e9/netlify.toml#L6), appropriately. For instance, if your **FUNCS_FOLDER_NAME = llama**, you should change this line to: **GOBIN=/opt/build/repo/llama**.
-1. Go to [app.netlify.com](app.netlify.com) to login.
+   If you make this change, be sure to change the [GOBIN entry in the netlify.toml file](https://github.com/phoenixcoder/GolangNetlifyFunctions/blob/70583093ac3d99b882391074087c5224edd6e9e9/netlify.toml#L6), appropriately.
+   
+   For instance, if your **FUNCS_FOLDER_NAME = llama**, you should change this line to:
+   ```
+   **GOBIN=/opt/build/repo/llama**.
+   ```
+      
+1. Go to [app.netlify.com](https://app.netlify.com/) to login.
 1. Click on "New site from Git".
 1. Select "GitHub".
 1. Select or Find "GolangNetlifyFunctions" from the list.
