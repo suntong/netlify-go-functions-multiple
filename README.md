@@ -44,7 +44,7 @@ Simply create a directory on the first level of this repo, next to the "hello" a
 ## Appendix
 ### Other Info
 * A reference to the hack here that made this all work. Project assumes Netlify's build repo root will always be: [/opt/build/repo](https://github.com/phoenixcoder/GolangNetlifyFunctions/blob/70583093ac3d99b882391074087c5224edd6e9e9/netlify.toml#L6)
-* Where your Netlify functions end up living is defined this [functions line](https://github.com/phoenixcoder/GolangNetlifyFunctions/blob/70583093ac3d99b882391074087c5224edd6e9e9/netlify.toml#L3).
+* Where your Netlify functions end up living is defined in this [functions line](https://github.com/phoenixcoder/GolangNetlifyFunctions/blob/70583093ac3d99b882391074087c5224edd6e9e9/netlify.toml#L3).
 * If you desire, change the name of your functions folder in the [netlify.toml](https://github.com/phoenixcoder/GolangNetlifyFunctions/blob/70583093ac3d99b882391074087c5224edd6e9e9/netlify.toml#L3). We'll call this new name, **FUNCS_FOLDER_NAME**.
    
    If you make this change, be sure to change the [GOBIN entry in the netlify.toml file](https://github.com/phoenixcoder/GolangNetlifyFunctions/blob/70583093ac3d99b882391074087c5224edd6e9e9/netlify.toml#L6), appropriately.
