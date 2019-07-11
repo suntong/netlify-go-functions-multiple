@@ -19,7 +19,7 @@ This example makes a few assumptions about the Netlify deployment system to make
    
    For instance, if your **FUNCS_FOLDER_NAME = llama**, you should change this line to:
    ```
-   **GOBIN=/opt/build/repo/llama**.
+   GOBIN=/opt/build/repo/llama
    ```
       
 1. Go to [app.netlify.com](https://app.netlify.com/) to login.
