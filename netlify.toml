@@ -4,3 +4,4 @@
 [build.environment]
 	GO_IMPORT_PATH = "github.com/suntong/netlify-go-functions-multiple"
 	GOBIN = "/opt/build/repo/functions"
+	GO111MODULE = "off"
