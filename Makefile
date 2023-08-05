@@ -2,5 +2,5 @@ build:
 	go env
 	go get ./...
 	go install ./...
-	ls -l ${GOBIN}/
+#	ls -l ${GOBIN}/
 	mkdir dist
